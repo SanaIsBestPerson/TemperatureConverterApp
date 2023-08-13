@@ -36,11 +36,34 @@ public class ConController {
         txtInput.setOnKeyReleased(this::onTextFieldClick);
     }
 
-    public void calculation(String txtInputValue){
+    public void calculation(String txtValue){
+
         if(ComFromValue == ComToValue){
-            lblDisplay.setText(txtInputValue);
+            lblDisplay.setText(txtValue);
+        }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Fahrenheit (°F)"){
+
+             lblDisplay.setText(String.valueOf((double) Math.round(((Double.parseDouble(txtValue)  * 9 / 5)+ 32) * 100) / 100));
+
+        }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Kelvin (K)"){
+
+            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) + 273.15)  * 100) / 100));
+
+        }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Celsius (°C)"){
+
+            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 32) * 5 / 9 * 100) / 100));
+
+        }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Kelvin (K)"){
+
+            lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue) - 32) * 5 / 9 )+273.5)* 100) / 100));
+
+        }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Celsius (°C)"){
+
+            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 273.15)  * 100) / 100));
+
+        }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Fahrenheit (°F)"){
+
+            lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue)-273.5)  * 9 / 5)+ 32) * 100) / 100));
+
         }
     }
-
-
 }

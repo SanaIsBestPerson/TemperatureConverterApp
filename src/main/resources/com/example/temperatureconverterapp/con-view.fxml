@@ -14,13 +14,13 @@
   </padding>
    <HBox prefHeight="23.0" prefWidth="414.0">
       <children>
-        <ComboBox fx:id="comFrom" promptText="Select a measurement" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 4;" onAction="#onComToClick" />
+        <ComboBox fx:id="comFrom" promptText="Select a measurement" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 4;" onAction="#onComFromClick" />
         <Label fx:id="lblConvert" alignment="CENTER" prefHeight="22.0" prefWidth="86.0" text="-&gt;" textAlignment="CENTER" textFill="#e10808">
             <font>
                <Font size="20.0" />
             </font>
          </Label>
-        <ComboBox fx:id="comTo" promptText="Select a measurement" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 4;" onAction="#onComFromClick"/>
+        <ComboBox fx:id="comTo" promptText="Select a measurement" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 4;" onAction="#onComToClick"/>
       </children>
    </HBox>
    <HBox prefHeight="29.0" prefWidth="414.0">
