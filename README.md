@@ -15,4 +15,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the JAVA use `java -help` or go check out the [JAVA Overview and Command Reference](https://www.java.com/en/download/help/index.html) page.
 
+## Output
+
 ![WhatsApp Image 2023-08-13 at 13 39 03](https://github.com/SanaIsBestPerson/TemperatureConverterApp/assets/95904319/a52f09bd-7662-4df3-b7c2-b4778555e1a2)
