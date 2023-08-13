@@ -11,7 +11,7 @@ public class ConApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ConApplication.class.getResource("con-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 580);
+        Scene scene = new Scene(fxmlLoader.load(), 420, 120);
         stage.setTitle("Temperature Converter App");
         stage.setScene(scene);
         stage.show();

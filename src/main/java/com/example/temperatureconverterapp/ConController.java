@@ -23,6 +23,8 @@ public class ConController {
     public void initialize() {
         comTo.setItems(list);
         comFrom.setItems(list);
+       // txtInput.setStyle("-fx-font: normal bold 20px 'serif' ; -fx-border-width: 10px; -fx-border-color: black; ");
+       // lblDisplay.setStyle("-fx-font: normal bold 20px 'serif' ");
     }
 
 
