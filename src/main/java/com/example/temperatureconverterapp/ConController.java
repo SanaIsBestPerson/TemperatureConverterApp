@@ -38,32 +38,34 @@ public class ConController {
 
     public void calculation(String txtValue){
 
-        if(ComFromValue == ComToValue){
-            lblDisplay.setText(txtValue);
-        }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Fahrenheit (°F)"){
+        if(txtValue != ""){
+            if(ComFromValue == ComToValue){
+                lblDisplay.setText(txtValue);
+            }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Fahrenheit (°F)"){
 
-             lblDisplay.setText(String.valueOf((double) Math.round(((Double.parseDouble(txtValue)  * 9 / 5)+ 32) * 100) / 100));
+                 lblDisplay.setText(String.valueOf((double) Math.round(((Double.parseDouble(txtValue)  * 9 / 5)+ 32) * 100) / 100));
 
-        }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Kelvin (K)"){
+            }else if(ComFromValue=="Celsius (°C)" && ComToValue =="Kelvin (K)"){
 
-            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) + 273.15)  * 100) / 100));
+                lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) + 273.15)  * 100) / 100));
 
-        }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Celsius (°C)"){
+            }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Celsius (°C)"){
 
-            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 32) * 5 / 9 * 100) / 100));
+                lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 32) * 5 / 9 * 100) / 100));
 
-        }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Kelvin (K)"){
+            }else if(ComFromValue=="Fahrenheit (°F)" && ComToValue =="Kelvin (K)"){
 
-            lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue) - 32) * 5 / 9 )+273.5)* 100) / 100));
+                lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue) - 32) * 5 / 9 )+273.5)* 100) / 100));
 
-        }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Celsius (°C)"){
+            }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Celsius (°C)"){
 
-            lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 273.15)  * 100) / 100));
+                lblDisplay.setText(String.valueOf((double) Math.round((Double.parseDouble(txtValue) - 273.15)  * 100) / 100));
 
-        }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Fahrenheit (°F)"){
+            }else if(ComFromValue=="Kelvin (K)" && ComToValue =="Fahrenheit (°F)"){
 
-            lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue)-273.5)  * 9 / 5)+ 32) * 100) / 100));
+                lblDisplay.setText(String.valueOf((double) Math.round((((Double.parseDouble(txtValue)-273.5)  * 9 / 5)+ 32) * 100) / 100));
 
+            }
         }
     }
 }
