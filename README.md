@@ -1,6 +1,6 @@
 # TemperatureConverterApp
 
-This project was generated with JAVA version 17.0.8 and Fx libraries. But use 'zulu-17.jdk' [zulu-17.jdk](https://www.azul.com/downloads/?version=java-17-lts#zulu) not need Fx libraries.
+This project was generated with JAVA version 17.0.8 and Fx libraries. But use '[zulu-17.jdk](https://www.azul.com/downloads/?version=java-17-lts#zulu)' not need Fx libraries.
 
 
 ## Build Running unit tests
