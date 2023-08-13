@@ -7,7 +7,7 @@ import javafx.scene.control.*;
 import javafx.scene.input.KeyEvent;
 
 public class ConController {
-    String ComFromValue,ComToValue;
+    String ComFromValue,ComToValue,txtInputValue;
     @FXML
     private Label lblDisplay;
     @FXML
@@ -19,14 +19,16 @@ public class ConController {
     @FXML
     protected void onComFromClick() {
         ComFromValue = (String) comFrom.getValue();
+        calculation(txtInputValue);
     }
     @FXML
     protected void onComToClick() {
         ComToValue = (String) comTo.getValue();
+        calculation(txtInputValue);
     }
     @FXML
     protected void onTextFieldClick(KeyEvent event) {
-        String txtInputValue = txtInput.getText();
+        txtInputValue = txtInput.getText();
         calculation(txtInputValue);
     }
     ObservableList<String> list = FXCollections.observableArrayList("Celsius (°C)","Fahrenheit (°F)","Kelvin (K)");

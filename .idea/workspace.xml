@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="complete event handler methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="empty String error solve">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <updated>1691853816873</updated>
       <workItem from="1691853817822" duration="12059000" />
       <workItem from="1691897782146" duration="295000" />
-      <workItem from="1691899044203" duration="10237000" />
+      <workItem from="1691899044203" duration="10635000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <option name="closed" value="true" />
@@ -156,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691906493368</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="completed calculation part">
+      <option name="closed" value="true" />
+      <created>1691913247714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691913247714</updated>
+    </task>
+    <task id="LOCAL-00008" summary="empty String error solve">
+      <option name="closed" value="true" />
+      <created>1691913323954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691913323954</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +194,8 @@
     <MESSAGE value="event handler defined" />
     <MESSAGE value="textfield event handler change" />
     <MESSAGE value="complete event handler methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete event handler methods" />
+    <MESSAGE value="completed calculation part" />
+    <MESSAGE value="empty String error solve" />
+    <option name="LAST_COMMIT_MESSAGE" value="empty String error solve" />
   </component>
 </project>
