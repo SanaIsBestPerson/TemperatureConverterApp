@@ -1,6 +1,6 @@
 # TemperatureConverterApp
 
-This project was generated with JAVA version 17.0.8
+This project was generated with JAVA version 17.0.8 (zulu-17.jdk)
 
 ## Build
 
