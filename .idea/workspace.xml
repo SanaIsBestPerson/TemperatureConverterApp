@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="components layout and add css">
+    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="event handler defined">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" afterDir="false" />
@@ -44,6 +44,9 @@
         <option name="mavenHome" value="Use Maven wrapper" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -103,7 +106,7 @@
       <updated>1691853816873</updated>
       <workItem from="1691853817822" duration="12059000" />
       <workItem from="1691897782146" duration="295000" />
-      <workItem from="1691899044203" duration="2726000" />
+      <workItem from="1691899044203" duration="5079000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <option name="closed" value="true" />
@@ -129,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691901837001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="event handler defined">
+      <option name="closed" value="true" />
+      <created>1691902684014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691902684014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +161,7 @@
     <MESSAGE value="initialisation" />
     <MESSAGE value="adding components" />
     <MESSAGE value="components layout and add css" />
-    <option name="LAST_COMMIT_MESSAGE" value="components layout and add css" />
+    <MESSAGE value="event handler defined" />
+    <option name="LAST_COMMIT_MESSAGE" value="event handler defined" />
   </component>
 </project>

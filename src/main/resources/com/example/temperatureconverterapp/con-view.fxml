@@ -25,7 +25,7 @@
    </HBox>
    <HBox prefHeight="29.0" prefWidth="414.0">
       <children>
-          <TextField fx:id="txtInput" prefHeight="29.0" prefWidth="165.0" promptText="Enter the value" style="-fx-border-color: blue; -fx-border-radius: 4; -fx-alignment: center;" onAction="#onTextFieldClick">
+          <TextField fx:id="txtInput" prefHeight="29.0" prefWidth="165.0" promptText="Enter the value" style="-fx-border-color: blue; -fx-border-radius: 4; -fx-alignment: center;" >
             <font>
                <Font name="System Bold" size="13.0" />
             </font></TextField>
