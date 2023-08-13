@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="adding components">
+    <list default="true" id="8f173600-c48c-428c-b5f2-5f120db9a197" name="Changes" comment="components layout and add css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/temperatureconverterapp/ConController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/temperatureconverterapp/con-view.fxml" afterDir="false" />
     </list>
@@ -104,7 +103,7 @@
       <updated>1691853816873</updated>
       <workItem from="1691853817822" duration="12059000" />
       <workItem from="1691897782146" duration="295000" />
-      <workItem from="1691899044203" duration="1926000" />
+      <workItem from="1691899044203" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="initialisation">
       <option name="closed" value="true" />
@@ -122,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691871945766</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="components layout and add css">
+      <option name="closed" value="true" />
+      <created>1691901837001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691901837001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initialisation" />
     <MESSAGE value="adding components" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding components" />
+    <MESSAGE value="components layout and add css" />
+    <option name="LAST_COMMIT_MESSAGE" value="components layout and add css" />
   </component>
 </project>

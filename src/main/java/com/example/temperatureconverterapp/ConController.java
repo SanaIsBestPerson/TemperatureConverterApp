@@ -15,16 +15,21 @@ public class ConController {
     @FXML
     private ComboBox comFrom;
     @FXML
-    protected void onButtonClick() {
+    protected void onComFromClick() {
         lblDisplay.setText("Ans is here");
     }
-
+    @FXML
+    protected void onComToClick() {
+        lblDisplay.setText("Ans is here");
+    }
+    @FXML
+    protected void onTextFieldClick() {
+        lblDisplay.setText("Ans is here");
+    }
     ObservableList<String> list = FXCollections.observableArrayList("Celsius (°C)","Fahrenheit (°F)","Kelvin (K)");
     public void initialize() {
         comTo.setItems(list);
         comFrom.setItems(list);
-       // txtInput.setStyle("-fx-font: normal bold 20px 'serif' ; -fx-border-width: 10px; -fx-border-color: black; ");
-       // lblDisplay.setStyle("-fx-font: normal bold 20px 'serif' ");
     }
 
 
